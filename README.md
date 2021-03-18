@@ -1,4 +1,5 @@
 # Herramientas
+![Sosmatic](/images/unnamed.png)
 > 2021 
 
 ## Herramientas para Windows
@@ -23,16 +24,21 @@ Reparación **Windows Update**:
 ### Liberador de espacio en disco
 > Ejecutar en terminal 
 
-- **cleanmgr** 
+````cleanmgr````
 
 ### Restablecer TCP/IP:
 > Ejecutar en terminal 
- 
-- **netsh winsock reset**
-- **netsh int ip reset**
+````c
+netsh winsock reset
+````
+````c
+netsh int ip reset
+````
 
 Limpiar cache DNS:
-- **ipconfig /flushdns**
+````c
+ipconfig /flushdns
+````
 
 ## Herramientas para Mac
 **Links**:
